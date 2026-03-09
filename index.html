@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background:#f5f5f5;
+        }
+
+        header{
+            background:#0d6efd;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        nav{
+            background:#333;
+            padding:10px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-size:18px;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        .container{
+            padding:40px;
+            text-align:center;
+        }
+
+        .btn{
+            background:#0d6efd;
+            color:white;
+            padding:10px 20px;
+            border:none;
+            border-radius:5px;
+            font-size:16px;
+            cursor:pointer;
+        }
+
+        .btn:hover{
+            background:#084298;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:15px;
+            position:fixed;
+            bottom:0;
+            width:100%;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Chào mừng đến với Website</h1>
+    <p>Demo GitHub Project</p>
+</header>
+
+<nav>
+    <a href="#">Trang chủ</a>
+    <a href="#">Sản phẩm</a>
+    <a href="#">Liên hệ</a>
+</nav>
+
+<div class="container">
+    <h2>Xin chào 👋</h2>
+    <p>Đây là trang web demo để test Git và GitHub.</p>
+
+    <button class="btn" onclick="hello()">Click Me</button>
+</div>
+
+<footer>
+    <p>© 2026 - NguyenThanhThien5279</p>
+</footer>
+
+<script>
+function hello(){
+    alert("Xin chào! Website đang hoạt động 🚀");
+}
+</script>
+
+</body>
+</html>
